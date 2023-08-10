@@ -1,0 +1,915 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ====== Bootstrap Cdn ===== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Ragfood || Resturent HTML</title>
+
+  <!-- ======= fav-icon ===== -->
+  <link rel="shortcut icon" href="images/Untitled.png" type="image/x-icon">
+  <!-- ====== fontawesome cdn ====== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ==== aos css link ==== -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- ===== xzoom css link ==== -->
+  <link rel="stylesheet" href="css/xzoom.css">
+  <!-- ====== css link ===== -->
+  <link rel="stylesheet" href="all_pages/menu_detail/css/style.css">
+  
+  <!-- ===== slick slider css ==== -->
+  <link rel="stylesheet" href="css/slick.css">
+</head>
+
+<body>
+  <!-- ===== header part strat here ====== -->
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="header_part_one">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-5 ">
+                <div class="head_span">
+                  <span>
+                    <a href="mailto:mohebbullah4045@gmail.com"> <i class="fa-solid fa-envelope head_margin"></i>
+                      examplemail@gmail.com</a>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="head_span">
+                  <span>
+                    <a href="callto:+96487452145214"> <i class="fa-solid fa-phone head_margin"></i>
+                      +96487452145214</a>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-1"></div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="header_part_two">
+            <a class="header_two_icon" target="_blank" href="https://www.facebook.com/mdmohebbullah.almuin1">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="header_two_icon" target="_blank" href="https://twitter.com/MdMuinIslam4545">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="header_two_icon" target="_blank" href="https://www.linkedin.com/feed/?trk=404_page">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a class="header_two_icon" target="_blank" href="https://www.dictionary.com/browse/be">
+              <i class="fa-brands fa-behance"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ===== header part end here ====== -->
+
+  <!-- ======== navbar part start here ========= -->
+  <nav class="navbar navbar-expand-lg main_menu">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <div class="nav_logo">
+          <img class="img-fluid" src="images/logo.png" alt="nav_logo">
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav m-auto main_menu">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item manu_item_main">
+            <a class="nav-link menu_item" href="about.html">about</a>
+          </li>
+          <li class="nav-item manu_item_main">
+            <a class="nav-link menu_item" href="menu.html">menu</a>
+          </li>
+          <li class="nav-item manu_item_main ">
+            <a class="nav-link menu_item" href="cheaf.html">chefs</a>
+          </li>
+          <li class="nav-item dropdown main_manu">
+            <a class="nav-link menu_item nav_active" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
+              aria-expanded="true">
+              pages<i class="fa-solid fa-angle-down nav_drop_icon"></i>
+            </a>
+            <ul class="dropdown-menu droap_menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item active" href="menu_details.html">menu details</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="blog_details.html"></i>blog details</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">cart view</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">checkout</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">payment</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">testimonial</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">404/error</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">FAQs</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">sign in</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">sign up</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">forgot password</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">privacy policy</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">terms and condition</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item manu_item_main">
+            <a class="nav-link menu_item" href="#">blog</a>
+          </li>
+          <li class="nav-item manu_item_main">
+            <a class="nav-link menu_item" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav_last_icon">
+        <div class="shopping_over">
+          <span>05</span>
+        </div>
+        <a class="last_icon" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+        <a class="last_icon" href="#"><i class="fa-solid fa-user"></i></a>
+
+      </div>
+    </div>
+  </nav>
+  <!-- ======== navbar part end here ========= -->
+
+  <!-- ======== banner part start here ========= -->
+  <section id="banner">
+    <div class="container">
+      <div class="banner_content">
+        <h1>Menu Details</h1>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a>Menu Details</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- ======== banner part end here ========= -->
+  <!-- ====== order part start here ====== -->\
+  <section id="order_part">
+    <div class="container">
+      <div class="row">
+        <div  data-aos="fade-right" data-aos-duration="2000" class="col-lg-5">
+          <div class="order_img_box "> 
+            <div class="menu_img">
+              <img class="img-fluid mainImg" src="images/menu2_img_1.jpg" alt="not_found">
+            </div>
+            <div class="menu_img">
+              <img class="img-fluid mainImg" src="images/menu2_img_2.jpg" alt="not_found">
+            </div>
+            <div class="menu_img">
+              <img class="img-fluid mainImg" src="images/menu2_img_3.jpg" alt="not_found">
+            </div>
+            <div class="menu_img">
+              <img class="img-fluid mainImg" src="images/menu2_img_4.jpg" alt="not_found">
+            </div>
+            <div class="menu_img">
+              <img class="img-fluid mainImg" src="images/menu2_img_5.jpg" alt="not_found">
+            </div>
+            <div class="menu_img">
+              <img class="img-fluid mainImg" src="images/menu2_img_6.jpg" alt="not_found">
+            </div>
+            <div class="menu_img">
+              <img class="img-fluid mainImg" src="images/menu2_img_7.jpg" alt="not_found">
+            </div>
+            <div class="menu_img">
+              <img class="img-fluid mainImg" src="images/menu2_img_8.jpg" alt="not_found">
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-lg-12 menu_small_slick position-relative" >
+              <div class="menu_small">
+                <img src="images/menu2_img_1.jpg" alt="not_found">
+
+              </div>
+              <div class="menu_small">
+                <img src="images/menu2_img_2.jpg" alt="not_found">
+                
+              </div>
+              <div class="menu_small">
+                <img src="images/menu2_img_3.jpg" alt="not_found">
+                
+              </div>
+              <div class="menu_small">
+                <img src="images/menu2_img_4.jpg" alt="not_found">
+                
+              </div>
+              <div class="menu_small">
+                <img src="images/menu2_img_5.jpg" alt="not_found">
+                
+              </div>
+              <div class="menu_small">
+                <img src="images/menu2_img_6.jpg" alt="not_found">
+                
+              </div>
+              <div class="menu_small">
+                <img src="images/menu2_img_7.jpg" alt="not_found">
+                
+              </div>
+              <div class="menu_small">
+                <img src="images/menu2_img_8.jpg" alt="not_found">
+                
+              </div>
+            </div> 
+            <div class="col-lg-12">
+              <div class="prev_next">
+                <div class="prev">
+                  <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="next">
+                  <i class="fa-solid fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div  data-aos="fade-left" data-aos-duration="2000" class="col-lg-7">
+    
+          <div class="tf__menu_details_text">
+            <h2>Maxican Pizza Test Better</h2>
+            <h3 class="price">$320.00 <del>$350.00</del> </h3>
+            <p class="rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                <i class="far fa-star" aria-hidden="true"></i>
+                <span>(201)</span>
+            </p>
+            <p class="short_description">Pizza is a savory dish of Italian origin consisting of a usually
+                round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often
+                various other ingredients.</p>
+
+            <div class="details_size">
+                <h5>select size</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="large" checked="">
+                    <label class="form-check-label" for="large">
+                        large <span>+ $350</span>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="medium">
+                    <label class="form-check-label" for="medium">
+                        medium <span>+ $250</span>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="small">
+                    <label class="form-check-label" for="small">
+                        small <span>+ $150</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="details_extra_item">
+                <h5>select option <span>(optional)</span></h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="coca-cola">
+                    <label class="form-check-label" for="coca-cola">
+                        coca-cola <span>+ $10</span>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="7up">
+                    <label class="form-check-label" for="7up">
+                        7up <span>+ $15</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="details_quentity">
+                <h5>select quentity</h5>
+                <div class="quentity_btn_area d-flex flex-wrap align-items-center">
+                    <div class="quentity_btn">
+                        <button class="btn btn-danger"><i class="fa-solid fa-minus"></i></button>
+                        <input type="text" placeholder="1">
+                        <button class="btn btn-success"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <h3>$320.00</h3>
+                </div>
+            </div>
+            <ul class="details_button_area d-flex flex-wrap">
+                <li><a class="common_btn" href="#">add to cart</a></li>
+                <li><a class="common_btn" href="#">wishlist</a></li>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== order part end here ===== -->
+  <!-- ====== menu_navtabs part start here ===== -->
+  <section id="review_part">
+    <div class="container">
+      <div class="review_main">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+              role="tab" aria-controls="home" aria-selected="true">Description</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+              role="tab" aria-controls="profile" aria-selected="false">Review</button>
+          </li>
+
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div data-aos="fade-right" data-aos-duration="2000" class="review_text">
+              <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                sed magni quasi</p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="review_ul">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit Doloribus.</li>
+                    <li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li>
+                    <li>Corporis quo cumque facere doloribus possimus nostrum sed magni quasi.</li>
+                    <li>Incidunt iste corporis quo cumque facere doloribus possimus nostrum sed.
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="review_ul">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit Doloribus.</li>
+                    <li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li>
+                    <li>Corporis quo cumque facere doloribus possimus nostrum sed magni quasi.</li>
+                    <li>Incidunt iste corporis quo cumque facere doloribus possimus nostrum sed.
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="review_ul">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit Doloribus.</li>
+                    <li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li>
+                    <li>Corporis quo cumque facere doloribus possimus nostrum sed magni quasi.</li>
+
+
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="review_ul">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit Doloribus.</li>
+                    <li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li>
+                    <li>Corporis quo cumque facere doloribus possimus nostrum sed magni quasi.</li>
+
+
+                  </ul>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="review_main_item">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div data-aos="fade-left" data-aos-duration="2000" class="review_content">
+                    <h4>04 reviews</h4>
+                    <div class="comment_box_main">
+                      <div class="comment_box_content">
+                        <div class="row">
+                          <div class="col-lg-2">
+                            <div class="comment_img">
+                              <img class="img-fluid" src="all_pages/menu_detail/images/client_1.png" alt="not_found">
+                            </div>
+                          </div>
+                          <div class="col-lg-10">
+                            <div class="comment_text">
+                              <h3>Michel Holder <span>29 oct 2022 </span></h3>
+                              <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <b>(120)</b>
+                              </span>
+                              <p>Sure there isn't anything embarrassing hiidden in the
+                                middles of text. All erators on the Internet
+                                tend to repeat predefined chunks</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comment_box_content">
+                        <div class="row">
+                          <div class="col-lg-2">
+                            <div class="comment_img">
+                              <img class="img-fluid" src="all_pages/menu_detail/images/client_2.png" alt="not_found">
+                            </div>
+                          </div>
+                          <div class="col-lg-10">
+                            <div class="comment_text">
+                              <h3>Salina Khan <span>01 Dec 2022 </span></h3>
+                              <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <b>(120)</b>
+                              </span>
+                              <p>Sure there isn't anything embarrassing hiidden in the
+                                middles of text. All erators on the Internet
+                                tend to repeat predefined chunks</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comment_box_content">
+                        <div class="row">
+                          <div class="col-lg-2">
+                            <div class="comment_img">
+                              <img class="img-fluid" src="all_pages/menu_detail/images/client_3.png" alt="not_found">
+                            </div>
+                          </div>
+                          <div class="col-lg-10">
+                            <div class="comment_text">
+                              <h3>moutidha manam <span>13 jan 2023 </span></h3>
+                              <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <b>(120)</b>
+                              </span>
+                              <p>Sure there isn't anything embarrassing hiidden in the
+                                middles of text. All erators on the Internet
+                                tend to repeat predefined chunks</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comment_box_content2">
+                        <div class="row">
+                          <div class="col-lg-2">
+                            <div class="comment_img">
+                              <img class="img-fluid" src="all_pages/menu_detail/images/client_4.png" alt="not_found">
+                            </div>
+                          </div>
+                          <div class="col-lg-10">
+                            <div class="comment_text">
+                              <h3>mahmudullah<span>29 oct 2022 </span></h3>
+                              <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <b>(120)</b>
+                              </span>
+                              <p>Sure there isn't anything embarrassing hiidden in the
+                                middles of text. All erators on the Internet
+                                tend to repeat predefined chunks</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-lg-12 mt-5">
+                              <nav aria-label="...">
+                                  <ul class="pagination">
+                                      <li class="page-item">
+                                          <a class="page-link" href="#"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                                      </li>
+                                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                      <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                      <li class="page-item">
+                                          <a class="page-link" href="#"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a>
+                                      </li>
+                                  </ul>
+                              </nav>
+                          </div>
+                      </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  
+                </div>
+                <div data-aos="fade-up-left" data-aos-duration="2000" class="col-lg-4">
+                  <div class="post_review">
+                    <h4>write a Review</h4>
+                    <form>
+                        <p class="review_icon">
+                            <span>select your rating : </span>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-12">
+                               <div class="review_input">
+                                <input type="text" placeholder="Name">
+                               </div>
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="review_input">
+                                <input type="email" placeholder="Email">
+                               </div>
+                               
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="review_input">
+                                <textarea rows="3" placeholder="Write your review"></textarea>
+                               </div>                   
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="review_button">
+                                <button class="review_btn" type="submit">submit
+                                  review</button>
+                               </div> 
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== menu_navtabs end here ====== -->
+
+  <!-- ======== food_item part start here ========= -->
+  <section id="food_item">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-lg-4">
+          <div class="food_item_header">
+            <h4>releated them</h4>
+          </div>
+        </div>
+        <div class="col-lg-7"></div>
+        <div class="col-lg-1">
+          <div class="chef_left_right">
+            <div class="chef_prev_arrow">
+              <i class="fa-solid fa-arrow-left-long"></i>
+            </div>
+            <div class="chef_next_arrow">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-right" data-aos-duration="2000" class="row chef_slider">
+        <div class="col-lg-3">
+          <div class="card" style="width: 18rem;">
+            <img src="images/menu2_img_5.jpg" alt="not_found">
+            <div class="card_name_btn">
+              kacchi
+            </div>
+            <div class="card-body">
+              <a class="title" href="menu_details.html">mozzarella sticks</a>
+              <p class="rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                <i class="far fa-star" aria-hidden="true"></i>
+                <span>72</span>
+              </p>
+              <h5 class="price">$75.00 <del>$90.00</del></h5>
+
+              <a class="card_add" href="#"> add to cart </a>
+              <span class="card_span"></span>
+              <a class="card_react_main1" href="#">
+                <i class="fa-regular fa-heart card_react"></i>
+              </a>
+              <a class="card_react_main2" href="#">
+                <i class="fa-regular fa-eye card_react"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card" style="width: 18rem;">
+            <img src="images/menu2_img_6.jpg" alt="not_found">
+            <div class="card_name_btn">
+              pizza
+            </div>
+            <div class="card-body">
+              <a class="title" href="menu_details.html">Popcon Juice</a>
+              <p class="rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                <i class="far fa-star" aria-hidden="true"></i>
+                <span>57</span>
+              </p>
+              <h5 class="price">$69.00 <del>$85.00</del></h5>
+
+              <a class="card_add" href="#"> add to cart </a>
+              <span class="card_span"></span>
+              <a class="card_react_main1" href="#">
+                <i class="fa-regular fa-heart card_react"></i>
+              </a>
+              <a class="card_react_main2" href="#">
+                <i class="fa-regular fa-eye card_react"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card" style="width: 18rem;">
+            <img src="images/menu2_img_7.jpg" alt="not_found">
+            <div class="card_name_btn">
+              kabab
+            </div>
+            <div class="card-body">
+              <a class="title" href="menu_details.html">chicken wings</a>
+              <p class="rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                <i class="far fa-star" aria-hidden="true"></i>
+                <span>43</span>
+              </p>
+              <h5 class="price">$79.00 <del>$90.00</del></h5>
+
+              <a class="card_add" href="#"> add to cart </a>
+              <span class="card_span"></span>
+              <a class="card_react_main1" href="#">
+                <i class="fa-regular fa-heart card_react"></i>
+              </a>
+              <a class="card_react_main2" href="#">
+                <i class="fa-regular fa-eye card_react"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card" style="width: 18rem;">
+            <img src="images/menu2_img_8.jpg" alt="not_found">
+            <div class="card_name_btn">
+              gril
+            </div>
+            <div class="card-body">
+              <a class="title" href="menu_details.html">onion rings</a>
+              <p class="rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                <i class="far fa-star" aria-hidden="true"></i>
+                <span>62</span>
+              </p>
+              <h5 class="price">$100.00 <del>$115.00</del></h5>
+
+              <a class="card_add" href="#"> add to cart </a>
+              <span class="card_span"></span>
+              <a class="card_react_main1" href="#">
+                <i class="fa-regular fa-heart card_react"></i>
+              </a>
+              <a class="card_react_main2" href="#">
+                <i class="fa-regular fa-eye card_react"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card" style="width: 18rem;">
+            <img src="images/menu2_img_1.jpg" alt="not_found">
+            <div class="card_name_btn">
+              briyani
+            </div>
+            <div class="card-body">
+              <a class="title" href="menu_details.html">Hyderabadi biryani</a>
+              <p class="rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                <i class="far fa-star" aria-hidden="true"></i>
+                <span>24</span>
+              </p>
+              <h5 class="price">$65.00 <del>$90.00</del></h5>
+
+              <a class="card_add" href="#"> add to cart </a>
+              <span class="card_span"></span>
+              <a class="card_react_main1" href="#">
+                <i class="fa-regular fa-heart card_react"></i>
+              </a>
+              <a class="card_react_main2" href="#">
+                <i class="fa-regular fa-eye card_react"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ======== food_item part end here ========= -->
+
+  <!-- ======== contact part start here ========= -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div data-aos="fade-right" data-aos-duration="2000" class="col-lg-4">
+          <div class="contact_logo">
+            <a href="index.html">
+              <img class="img-fluid" src="images/footer_logo.png" alt="not_found">
+            </a><br>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui
+              placeat inventore consectetur repellendus optio debitis.</span>
+
+            <div class="contact_icon">
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </div>
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-behance"></i></a>
+              </div>
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2000" class="col-lg-2">
+          <div class="tf__footer_content">
+            <h3>Short Link</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Our Service</a></li>
+              <li><a href="#">gallery</a></li>
+            </ul>
+          </div>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="2000" class="col-lg-2">
+          <div class="tf__footer_content">
+            <h3>Help Link</h3>
+            <ul>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Refund Policy</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="2000" class="col-lg-4">
+          <div class="tf__footer_content">
+            <h3>contact us</h3>
+            <p class="info"><i class="fas fa-phone-alt" aria-hidden="true"></i> +44 (0) 20 9994 7740</p>
+            <p class="info"><i class="fas fa-envelope" aria-hidden="true"></i> themefaxbd@gmail.com</p>
+            <p class="info"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Blackwell Street,Dry
+              Creek,Alaska</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======== contact part end here ========= -->
+
+  <!-- ======= footer part strat here ==== -->
+  <footer id="footer_part">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer_content">
+            <p>Copyright ©<a href="index.html"> RegFood</a> 2023. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ======= footer part strat here ==== -->
+
+
+
+  <!-- ==== top to bottom bar ===== -->
+  <div class="top_to_bottom">
+    <i class="fa-solid fa-hand-pointer"></i>
+  </div>
+  <!-- ====== Bootstarp Js Cdn ====== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-- ===== jquriy link ===== -->
+
+  <script src="js/jquery.min.js"></script>
+ <!-- ===== image zoom hover link ==== -->
+ <script src="js/xzoom.js"></script>
+
+  <!-- ===== slick slider js ===== -->
+
+  <script src="js/slick.min.js"></script>
+
+  <!-- ====== aos js link ==== -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- ===== mixitup link ===== -->
+
+  <script src="js/mixitup.min.js"></script>
+
+  <!-- ==== counter link ==== -->
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/counterup.min.js"></script>
+
+  
+  <!-- ===== javasript main link ===== -->
+
+  <script src="js/script.js"></script>
+
+  <!-- === aos script === -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

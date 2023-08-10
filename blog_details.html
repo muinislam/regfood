@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ====== Bootstrap Cdn ===== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Ragfood || Resturent HTML</title>
+
+  <!-- ======= fav-icon ===== -->
+  <link rel="shortcut icon" href="images/Untitled.png" type="image/x-icon">
+  <!-- ====== fontawesome cdn ====== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ==== aos css link ==== -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- ===== xzoom css link ==== -->
+  <link rel="stylesheet" href="css/xzoom.css">
+  <!-- ====== css link ===== -->
+  <link rel="stylesheet" href="all_pages/blog_details/css/style.css">
+  
+  <!-- ===== slick slider css ==== -->
+  <link rel="stylesheet" href="css/slick.css">
+</head>
+
+<body>
+  <!-- ===== header part strat here ====== -->
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="header_part_one">
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-5 ">
+                <div class="head_span">
+                  <span>
+                    <a href="mailto:mohebbullah4045@gmail.com"> <i class="fa-solid fa-envelope head_margin"></i>
+                      examplemail@gmail.com</a>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="head_span">
+                  <span>
+                    <a href="callto:+96487452145214"> <i class="fa-solid fa-phone head_margin"></i>
+                      +96487452145214</a>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-1"></div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="header_part_two">
+            <a class="header_two_icon" target="_blank" href="https://www.facebook.com/mdmohebbullah.almuin1">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="header_two_icon" target="_blank" href="https://twitter.com/MdMuinIslam4545">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="header_two_icon" target="_blank" href="https://www.linkedin.com/feed/?trk=404_page">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a class="header_two_icon" target="_blank" href="https://www.dictionary.com/browse/be">
+              <i class="fa-brands fa-behance"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ===== header part end here ====== -->
+
+  <!-- ======== navbar part start here ========= -->
+  <nav class="navbar navbar-expand-lg main_menu">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <div class="nav_logo">
+          <img class="img-fluid" src="images/logo.png" alt="nav_logo">
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav m-auto main_menu">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item manu_item_main">
+            <a class="nav-link menu_item" href="about.html">about</a>
+          </li>
+          <li class="nav-item manu_item_main">
+            <a class="nav-link menu_item" href="menu.html">menu</a>
+          </li>
+          <li class="nav-item manu_item_main ">
+            <a class="nav-link menu_item" href="cheaf.html">chefs</a>
+          </li>
+          <li class="nav-item dropdown main_manu">
+            <a class="nav-link menu_item nav_active" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
+              aria-expanded="true">
+              pages<i class="fa-solid fa-angle-down nav_drop_icon"></i>
+            </a>
+            <ul class="dropdown-menu droap_menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item active" href="menu_details.html">menu details</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="blog_details.html"></i>blog details</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">cart view</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">checkout</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">payment</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">testimonial</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">404/error</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">FAQs</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">sign in</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">sign up</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">forgot password</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">privacy policy</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="#">terms and condition</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item manu_item_main">
+            <a class="nav-link menu_item" href="#">blog</a>
+          </li>
+          <li class="nav-item manu_item_main">
+            <a class="nav-link menu_item" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav_last_icon">
+        <div class="shopping_over">
+          <span>05</span>
+        </div>
+        <a class="last_icon" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+        <a class="last_icon" href="#"><i class="fa-solid fa-user"></i></a>
+
+      </div>
+    </div>
+  </nav>
+  <!-- ======== navbar part end here ========= -->
+
+  <!-- ======== banner part start here ========= -->
+  <section id="banner">
+    <div class="container">
+      <div class="banner_content">
+        <h1>blog Details</h1>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a>blog Details</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- ======== banner part end here ========= -->
+
+  <!-- ====== blog_search part start here ==== -->
+  <section id="blog_details">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+         <div class="blog_details_main">
+          <div data-aos="fade-right" data-aos-duration="2000" class="blog_details_img">
+            <img src="all_pages/blog_details/images/blog_details.jpg" alt="not_found">
+          </div>
+          <ul class="details_bloger d-flex flex-wrap">
+            <li><i class="far fa-user"></i> By Admin</li>
+            <li><i class="fa-solid fa-comments"></i> 12 Comments</li>
+            <li><i class="far fa-calendar-alt"></i> 18 July 2022</li>
+        </ul>
+        <div data-aos="fade-left" data-aos-duration="2000" class="blog_text_box">
+          <h2>Different Spice For A Different Cheese Bruschetta</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+            ered alteration in some form, by injected humour, or randomised word which don't look
+            even slightly believable. If you are going to use a passage of Lorem Ipsulm you need to
+            sure there isn't anything embarrassing hidden in the middle of text.</p><br>
+            <p>Erators on the Internet tend to repeat predefined chunks as necessiary, making this the
+              true generator on the Internet. It uses a dictionary of over 200 Latin words, combinedss
+              handful of model sentence structures</p>
+              <h3>Creative approach to every project</h3>
+              <p>Sure there isn't anything embarrassing hidden in the middle of text. All the Lorem our
+                asIpsum gen erators on the Internet tend to repeat predefined chunks as the as
+                necessliary, making this the first
+                true generator on the Internet. It uses a dictionary of over 200 our asliatin words,
+                combined with a
+                handful of model sentence structures</p>
+  
+        </div>
+              <ul data-aos="fade-right" data-aos-duration="2000" class="blog_details_list">
+                <li>there isn't anything embarrassing hidden in the middle of text. All the Lorem our
+                    asIpsum gen erator</li>
+                <li>predefined chunks as the as necessliary, making this the first true generator on the
+                </li>
+                <li>asliatin words, combined with a handful of model sentence structures</li>
+                <li>Asearch for 'lorem ipsum' will uncover many </li>
+            </ul>
+            <div class="tf__blog_center_img">
+              <div class="row">
+                  <div data-aos="fade-left" data-aos-duration="2000" class="col-xl-6 col-md-5">
+                      <div class="tf__blog_center_img_item">
+                          <img src="images/download_img.png" alt="blog" class="img-fluid w-100">
+                      </div>
+                  </div>
+                  <div data-aos="fade-left" data-aos-duration="2000" class="col-xl-6 col-md-7">
+                      <div class="tf__blog_center_text">
+                          <h3>Creative approach to every project</h3>
+                          <p>Sure there isn't anything embarrassing hidden in the middle of text. All
+                              the Lorem our asIpsum gen erators on the Internet tend to repeat
+                              predefined chunks as the as necessliary, making this the first true
+                              generator</p><br>
+                          <p>Sure there isn't anything embarrassing hidden in the middle of text. All
+                              the Lorem our asIpsum gen erators on the Internet tend to repeat
+                              predefined.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="blog_text_box">
+                <h3>Creative approach to every project</h3>
+                <p>Sure there isn't anything embarrassing hidden in the middle of text. All the Lorem our
+                  asIpsum gen erators on the Internet tend to repeat predefined chunks as the as
+                  necessliary, making this the first
+                  true generator on the Internet. It uses a dictionary of over 200 our asliatin words,
+                  combined with a
+                  handful of model sentence structures</p>
+                  <ul data-aos="fade-right" data-aos-duration="2000" class="blog_details_list">
+                    <li>there isn't anything embarrassing hidden in the middle of text. All the Lorem our
+                        asIpsum gen erator</li>
+                    <li>predefined chunks as the as necessliary, making this the first true generator on the
+                    </li>
+                    <li>asliatin words, combined with a handful of model sentence structures</li>
+                    <li>Asearch for 'lorem ipsum' will uncover many </li>
+                </ul>
+                  <p>Sure there isn't anything embarrassing hidden in the middle of text. All the Lorem our
+                    asIpsum gen erators on the Internet tend to repeat predefined chunks as the as
+                    necessliary, making this the first
+                    true generator on the Internet. It uses a dictionary of over 200 our asliatin words,
+                    combined with a
+                    handful of model sentence structures</p>
+      
+          </div>
+          <div class="blog_tags_share d-flex flex-wrap justify-content-between align-items-center">
+            <div class="tags d-flex flex-wrap align-items-center">
+                <span>tags:</span>
+                <ul class="d-flex flex-wrap">
+                    <li><a href="#">Cleaning</a></li>
+                    <li><a href="#">AC Repair</a></li>
+                    <li><a href="#">Home Move</a></li>
+                </ul>
+            </div>
+            <div class="share d-flex flex-wrap align-items-center">
+                <span>share:</span>
+                <ul class="d-flex flex-wrap">
+                    <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+         </div>
+
+         
+        </div>
+        <div class="col-lg-4 position-relative">
+          <div class="blog_search">
+            <h4>search</h4>
+           <div class="blog_input">
+            <input type="text" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+           </div>
+          </div>
+          <div class="blog_search">
+            <h4>latest post</h4>
+            <ul>
+              <li>
+                  <img src="images/blog_1.jpg" alt="blog" class="img-fluid">
+                  <div class="text">
+                      <a href="#">Mechanic at car service tire change the car.</a>
+                      <p><i class="far fa-calendar-alt" aria-hidden="true"></i> 29 oct 2022</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="images/blog_2.jpg" alt="blog" class="img-fluid">
+                  <div class="text">
+                      <a href="#">Transportation and logistics of container cargo ship.</a>
+                      <p><i class="far fa-calendar-alt" aria-hidden="true"></i> 29 oct 2022</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="images/blog_3.jpg" alt="blog" class="img-fluid">
+                  <div class="text">
+                      <a href="#">Commercial cleaning crew ladies working.</a>
+                      <p><i class="far fa-calendar-alt" aria-hidden="true"></i> 29 oct 2022</p>
+                  </div>
+              </li>
+          </ul>
+          </div>
+          <div class="blog_search sticky_cat">
+            <h4>categories</h4>
+            <ul class="blog_list">
+              <li><a href="#">Home Cleaning <span>10</span></a></li>
+              <li><a href="#">Painting &amp; Renovation <span>20</span></a></li>
+              <li><a href="#">Cleaning &amp; Pest Control <span>14</span></a></li>
+              <li><a href="#">Emergency Services <span>41</span></a></li>
+              <li><a href="#">Car Care Services <span>05</span></a></li>
+              <li><a href="#">Electric &amp; Plumbing <span>35</span></a></li>
+              <li><a href="#">Home Move <span>48</span></a></li>
+          </ul>
+          </div>
+          <div class="blog_search">
+            <h4>popular tags</h4>
+            <ul class="blog_popular">
+              <li><a href="#">Cleaning </a></li>
+              <li><a href="#">Car Repair</a></li>
+              <li><a href="#">Plumbing</a></li>
+              <li><a href="#">Painting</a></li>
+              <li><a href="#">Past Control</a></li>
+              <li><a href="#">AC Repair</a></li>
+              <li><a href="#">Home Move</a></li>
+              <li><a href="#">Disinfection</a></li>
+          </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== blog_search part end here ==== -->
+  <!-- ====== comments part start here ==== --> 
+  <section id="comment_part">
+    <div class="container">
+      <div class="review_main_item">
+        <div class="row">
+          <div class="col-lg-8">
+            <div data-aos="fade-right" data-aos-duration="1500" class="review_content">
+              <h4>04 comments</h4>
+              <div class="comment_box_main">
+                <div class="comment_box_content">
+                  <div class="row">
+                    <div class="col-lg-2">
+                      <div class="comment_img">
+                        <img class="img-fluid" src="all_pages/menu_detail/images/client_1.png" alt="not_found">
+                      </div>
+                    </div>
+                    <div class="col-lg-10">
+                      <div class="comment_text">
+                        <h3>Michel Holder <span>29 oct 2022 </span></h3>
+                        <span class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fa-regular fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <b>(120)</b>
+                        </span>
+                        <p>Sure there isn't anything embarrassing hiidden in the
+                          middles of text. All erators on the Internet
+                          tend to repeat predefined chunks</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment_box_content">
+                  <div class="row">
+                    <div class="col-lg-2">
+                      <div class="comment_img">
+                        <img class="img-fluid" src="all_pages/menu_detail/images/client_2.png" alt="not_found">
+                      </div>
+                    </div>
+                    <div class="col-lg-10">
+                      <div class="comment_text">
+                        <h3>Salina Khan <span>01 Dec 2022 </span></h3>
+                        <span class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fa-regular fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <b>(120)</b>
+                        </span>
+                        <p>Sure there isn't anything embarrassing hiidden in the
+                          middles of text. All erators on the Internet
+                          tend to repeat predefined chunks</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment_box_content">
+                  <div class="row">
+                    <div class="col-lg-2">
+                      <div class="comment_img">
+                        <img class="img-fluid" src="all_pages/menu_detail/images/client_3.png" alt="not_found">
+                      </div>
+                    </div>
+                    <div class="col-lg-10">
+                      <div class="comment_text">
+                        <h3>moutidha manam <span>13 jan 2023 </span></h3>
+                        <span class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fa-regular fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <b>(120)</b>
+                        </span>
+                        <p>Sure there isn't anything embarrassing hiidden in the
+                          middles of text. All erators on the Internet
+                          tend to repeat predefined chunks</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment_box_content2">
+                  <div class="row">
+                    <div class="col-lg-2">
+                      <div class="comment_img">
+                        <img class="img-fluid" src="all_pages/menu_detail/images/client_4.png" alt="not_found">
+                      </div>
+                    </div>
+                    <div class="col-lg-10">
+                      <div class="comment_text">
+                        <h3>mahmudullah<span>29 oct 2022 </span></h3>
+                        <span class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fa-regular fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <b>(120)</b>
+                        </span>
+                        <p>Sure there isn't anything embarrassing hiidden in the
+                          middles of text. All erators on the Internet
+                          tend to repeat predefined chunks</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="row">
+                    <div class="col-lg-12 mt-5">
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                </div>
+    
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-4">
+        
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="comment_input">
+            <h4>Leave A Comment</h4>
+            <p>Your email address will not be published. Required fields are marked *</p>
+            <form>
+                <div class="row">
+                    <div class="col-xl-6 col-md-6">
+                        <label>name</label>
+                        <div class="tf__contact_form_input">
+                            <span><i class="fas fa-user" aria-hidden="true"></i></span>
+                            <input type="text" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <label>email</label>
+                        <div class="tf__contact_form_input">
+                            <span><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                            <input type="email" placeholder="Mail">
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <label>comment</label>
+                        <div class="tf__contact_form_input textarea">
+                            <span><i class="fas fa-pen" aria-hidden="true"></i></span>
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                        </div>
+                        <button type="submit" class="common_btn mt_20">Submit comment</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+        <div class="col-lg-4"></div>
+      </div>
+   
+    </div>
+  </section>
+   <!-- ======== comments part end here ========= -->
+
+  <!-- ======== contact part start here ========= -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div data-aos="fade-right" data-aos-duration="2000" class="col-lg-4">
+          <div class="contact_logo">
+            <a href="index.html">
+              <img class="img-fluid" src="images/footer_logo.png" alt="not_found">
+            </a><br>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui
+              placeat inventore consectetur repellendus optio debitis.</span>
+
+            <div class="contact_icon">
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </div>
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-behance"></i></a>
+              </div>
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+              <div class="con_icon">
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2000" class="col-lg-2">
+          <div class="tf__footer_content">
+            <h3>Short Link</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Our Service</a></li>
+              <li><a href="#">gallery</a></li>
+            </ul>
+          </div>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="2000" class="col-lg-2">
+          <div class="tf__footer_content">
+            <h3>Help Link</h3>
+            <ul>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Refund Policy</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="2000" class="col-lg-4">
+          <div class="tf__footer_content">
+            <h3>contact us</h3>
+            <p class="info"><i class="fas fa-phone-alt" aria-hidden="true"></i> +44 (0) 20 9994 7740</p>
+            <p class="info"><i class="fas fa-envelope" aria-hidden="true"></i> themefaxbd@gmail.com</p>
+            <p class="info"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Blackwell Street,Dry
+              Creek,Alaska</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======== contact part end here ========= -->
+
+  <!-- ======= footer part strat here ==== -->
+  <footer id="footer_part">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer_content">
+            <p>Copyright ©<a href="index.html"> RegFood</a> 2023. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ======= footer part strat here ==== -->
+
+  <!-- ==== top to bottom bar ===== -->
+  <div class="top_to_bottom">
+    <i class="fa-solid fa-hand-pointer"></i>
+  </div>
+  <!-- ====== Bootstarp Js Cdn ====== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-- ===== jquriy link ===== -->
+
+  <script src="js/jquery.min.js"></script>
+ <!-- ===== image zoom hover link ==== -->
+ <script src="js/xzoom.js"></script>
+
+  <!-- ===== slick slider js ===== -->
+
+  <script src="js/slick.min.js"></script>
+
+  <!-- ====== aos js link ==== -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- ===== mixitup link ===== -->
+
+  <script src="js/mixitup.min.js"></script>
+
+  <!-- ==== counter link ==== -->
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/counterup.min.js"></script>
+
+  
+  <!-- ===== javasript main link ===== -->
+
+  <script src="js/script.js"></script>
+
+  <!-- === aos script === -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
